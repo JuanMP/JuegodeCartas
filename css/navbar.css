@@ -1,0 +1,36 @@
+.container{
+    width: 100%;
+ 
+    
+
+}
+
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 10px 20px;
+}
+
+nav ul.menu{
+    list-style: none;
+    padding: 0;
+    margin: 5px;
+    display: flex;                      /*alinea los items horizontalmente*/
+}
+
+
+.menu li{
+    margin-right: 20px;
+}
+
+.menu a{
+    color: yellow;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.menu a:hover{
+    color: red;
+}

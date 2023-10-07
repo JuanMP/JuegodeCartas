@@ -1,0 +1,79 @@
+.jugador{
+    display: inline-block;   
+    text-align: center;
+    margin: 0 20px;         
+}
+
+.nombre-jugador{
+    margin-bottom: 10px;       
+    font-weight: bold;          
+}
+
+.mano {
+    display: flex;
+    align-items: center;
+}
+
+.mano img{
+    max-width: 50px;
+    transition: transform 0.3s;
+}
+
+.mano img:hover{
+    transform: scale(1.1);
+}
+
+.banca{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.jugadores{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+
+.jugadorEstilo{
+    border: 1px solid orange;
+    padding: 10px;
+    margin: 10px;
+    width: fit-content;
+    max-width: 90%;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+.ganadores{
+    border: 2px solid yellow;
+    padding: 10px;
+    margin: 10px;
+    background-color: rosybrown;
+}
+
+.resultados{
+    margin: 0;
+    margin-top: 50px;
+    background-color: yellow;
+}
+
+
+
+.jugador-info {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.avatar-jugador {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.nombre-jugador {
+    font-weight: bold;
+}
